@@ -1,4 +1,4 @@
-rootProject.name = 'PokeDex'
+rootProject.name = 'PokeDex Ultimate'
 
 dependencyResolutionManagement {
   versionCatalogs {
