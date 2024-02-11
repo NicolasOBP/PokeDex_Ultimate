@@ -27,7 +27,11 @@ export default function useGetDetails(details: Details) {
         for (const key of Object.keys(a)) {
           if (key !== "trigger") {
             if (a[key]) {
-              if (key == "item") {
+              if (
+                key == "item" ||
+                key == "location" ||
+                key == "known_move_type"
+              ) {
                 datas.push({ label: key, value: a[key].name });
               } else {
                 datas.push({ label: key, value: a[key] });

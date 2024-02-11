@@ -12,6 +12,7 @@ export default function EvolutionDetails({ details }: Props) {
   const data = useGetDetails(details);
 
   if (!data) return;
+  console.log(data);
 
   return (
     <View
